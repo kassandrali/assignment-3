@@ -1,5 +1,25 @@
-.image-container {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+  }
+   /* Make the image responsive */
+   .container video {
+    width: 1400px;
+    height: 700px;
+  }
+ 
+
+  /* Style the button and place it in the middle of the container/image */
+.container .btn {
+    position: absolute;
+    top: 450px;
+    left: 610px;
+    background-color: #555;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }

@@ -1,0 +1,46 @@
+nav{
+    position: fixed;
+    z-index: 100;
+}
+.pic1 img{
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+}
+
+.h1{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+.portfolio{
+    display: flex;
+;
+}
+.portfolio-container{
+    display: flex;
+    position: relative;
+    background-color: white;
+    max-width: 20%;
+}
+
+.portfolio-container:hover .title-text{
+    opacity: 1;
+}
+.portfolio-container:hover img{
+    opacity: .6;
+}
+
+
+.title-text{
+    opacity: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color:black;
+    left: 0;
+    top:50%;
+}
